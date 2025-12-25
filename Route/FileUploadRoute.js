@@ -16,5 +16,6 @@ router.post("/image/cloud", ImageUpload);
 
 // Cloudinary video upload
 router.post("/video/cloud", videoUpload);
+router.post("/imagesizereducre/cloud", imageReducerUpload);
 
 module.exports = router;
